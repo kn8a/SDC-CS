@@ -18,7 +18,7 @@ public class Main {
     public static void main(String[] args) {
         // Array containing the states and capitals
         String[][] statesAndCapitals = {
-          {"Alabama","Montgomery"},
+                {"Alabama","Montgomery"},
     			{"Alaska","Juneau"},
     			{"Arizona","Phoenix"},
     			{"Arkansas","Little Rock"},
