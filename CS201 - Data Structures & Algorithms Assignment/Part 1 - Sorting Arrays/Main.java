@@ -18,7 +18,8 @@ public class Main {
     public static void main(String[] args) {
         // Array containing the states and capitals
         String[][] statesAndCapitals = {
-                {"Alabama","Montgomery"},
+            // State and capital pairs
+            {"Alabama","Montgomery"},
     			{"Alaska","Juneau"},
     			{"Arizona","Phoenix"},
     			{"Arkansas","Little Rock"},
@@ -85,9 +86,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int correctCount = 0;
         for (int i = 0; i < statesAndCapitals.length; i++) {
+            // Get the state and capital for the current iteration
             String state = statesAndCapitals[i][0];
             String capital = statesAndCapitals[i][1];
 
+            // Prompt the user to enter the capital of the state
             System.out.print("Enter the capital of " + state + ": ");
             String userCapital = scanner.nextLine();
 
@@ -106,6 +109,7 @@ public class Main {
 
     // Method to display the contents of the array
     private static void displayArray(String[][] array) {
+        // Iterate over the array and print each state and capital pair
         for (String[] row : array) {
             System.out.println(row[0] + " - " + row[1]);
         }
@@ -116,8 +120,9 @@ public class Main {
         int n = array.length;
         for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < n - i - 1; j++) {
+                // Compare the capitals of adjacent elements
                 if (array[j][1].compareToIgnoreCase(array[j + 1][1]) > 0) {
-                    // Swap elements
+                    // Swap elements if the current capital is greater than the next capital
                     String[] temp = array[j];
                     array[j] = array[j + 1];
                     array[j + 1] = temp;
