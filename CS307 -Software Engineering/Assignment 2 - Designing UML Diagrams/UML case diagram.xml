@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2023-06-12T14:31:29.070Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8nDfyyYeRWOEhZrY6fnp" version="21.3.8">
+  <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
+    <mxGraphModel dx="453" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wfs432I5Vr80NUk8ZSk_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wfs432I5Vr80NUk8ZSk_-13" target="wfs432I5Vr80NUk8ZSk_-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfs432I5Vr80NUk8ZSk_-13" value="In-home Smart&lt;br&gt;Thermostat System" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="136" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wfs432I5Vr80NUk8ZSk_-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wfs432I5Vr80NUk8ZSk_-15" target="wfs432I5Vr80NUk8ZSk_-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="270" as="targetPoint" />
+            <mxPoint x="200" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfs432I5Vr80NUk8ZSk_-15" value="User" style="shape=umlActor;verticalLabelPosition=top;verticalAlign=bottom;html=1;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="220" y="150" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wfs432I5Vr80NUk8ZSk_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.668;entryY=0.982;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wfs432I5Vr80NUk8ZSk_-16" target="wfs432I5Vr80NUk8ZSk_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfs432I5Vr80NUk8ZSk_-16" value="HVAC&lt;br&gt;System" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="268" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wfs432I5Vr80NUk8ZSk_-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.107;entryY=1.035;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wfs432I5Vr80NUk8ZSk_-22" target="wfs432I5Vr80NUk8ZSk_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfs432I5Vr80NUk8ZSk_-22" value="Mobile&lt;br&gt;Device" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="185" y="268" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
