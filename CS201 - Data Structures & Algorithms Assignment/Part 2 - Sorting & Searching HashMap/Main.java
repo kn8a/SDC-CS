@@ -74,7 +74,6 @@ public class Main {
     			{"West Virginia","Charleston"},
     			{"Wisconsin","Madison"},
     			{"Wyoming","Cheyenne"}
-            // ... rest of the states and capitals
         };
 
         // Add the lowercase state-capital pairs to the TreeMap
