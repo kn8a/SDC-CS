@@ -1,4 +1,4 @@
-# Personal Study.com Computer Science Assignments Repository
+# My Study.com Computer Science Assignments Repository
 
 Welcome to my study.com Computer Science Assignments Repository! This repository contains a collection of computer science assignments completed by me as part of my courses on study.com. Each assignment is organized in its own folder, providing an organized structure for easy reference and navigation.
 
