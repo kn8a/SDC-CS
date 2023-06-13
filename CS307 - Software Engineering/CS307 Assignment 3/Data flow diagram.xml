@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2023-06-13T06:49:41.102Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="eh1d8wAz8Z9JfQRnj69z" version="21.3.8">
+  <diagram name="Page-1" id="0jMsW8CWaeYbwyRumQg2">
+    <mxGraphModel dx="543" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="User" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="308" y="30" width="47" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="SmartThermostat" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="334" y="260" width="140" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Sensor" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="272" y="394" width="62" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Internet Gateway" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="487" y="150" width="83" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="HVAC" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="518" y="386" width="52" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Inputs" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" parent="1" source="2" target="H4h3bIPt5lDUSsxiK6Ra-15" edge="1">
+          <mxGeometry x="-0.0887" y="19" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="120" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="Reads temperature" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="4" edge="1">
+          <mxGeometry x="0.1418" y="8" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="264" y="320" />
+            </Array>
+            <mxPoint x="449" y="184" as="sourcePoint" />
+            <mxPoint x="189" y="394" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="Sends data" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=0;entryX=0.078;entryY=1.043;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4" target="3" edge="1">
+          <mxGeometry x="-0.2882" y="-1" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="349" y="340" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="Send Data" style="curved=1;startArrow=none;endArrow=block;exitX=0.846;exitY=0.021;entryX=0.408;entryY=1.035;exitDx=0;exitDy=0;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="3" target="5" edge="1">
+          <mxGeometry x="-0.2" y="-4" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="210" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="Receive Data" style="curved=1;startArrow=none;endArrow=block;exitX=0.635;exitY=1.089;entryX=1;entryY=0.25;exitDx=0;exitDy=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="5" target="3" edge="1">
+          <mxGeometry x="-0.4919" y="4" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="240" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Switch state and modes (On/Off)&#xa;Cooling/Heating&#xa;Fan: low/med/high" style="curved=1;startArrow=none;endArrow=block;exitX=0.8989495212634844;exitY=0.9754902895759133;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="6" edge="1">
+          <mxGeometry x="0.1936" y="14" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="539" y="344" />
+            </Array>
+            <mxPoint x="-1" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Send state data" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=0;entryX=0.7351110859860098;entryY=0.9754902895759133;exitDx=0;exitDy=0;" parent="1" source="6" target="3" edge="1">
+          <mxGeometry x="-0.1279" y="-5" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="449" y="374" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Displays current &#xa;temperature &amp; settings" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=0.75;entryY=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="H4h3bIPt5lDUSsxiK6Ra-15" target="2" edge="1">
+          <mxGeometry x="0.4262" y="7" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="120" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H4h3bIPt5lDUSsxiK6Ra-15" value="Mobile Device" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="83" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="H4h3bIPt5lDUSsxiK6Ra-16" value="Send Data" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.25;entryX=0;entryY=0.25;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="H4h3bIPt5lDUSsxiK6Ra-15" target="5">
+          <mxGeometry x="-0.0933" y="-5" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="155" />
+            </Array>
+            <mxPoint x="425" y="216" as="sourcePoint" />
+            <mxPoint x="473" y="130" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H4h3bIPt5lDUSsxiK6Ra-17" value="Receive Data" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.75;entryX=1;entryY=0.75;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="H4h3bIPt5lDUSsxiK6Ra-15">
+          <mxGeometry x="0.0375" y="-8" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="190" />
+            </Array>
+            <mxPoint x="443" y="170" as="sourcePoint" />
+            <mxPoint x="398" y="262" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
