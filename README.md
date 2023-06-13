@@ -1,4 +1,4 @@
-# My Study.com Computer Science Assignments Repository
+# My study.com Computer Science Assignments Repository
 
 Welcome to my study.com Computer Science Assignments Repository! This repository contains a collection of computer science assignments completed by me as part of my courses on study.com. Each assignment is organized in its own folder, providing an organized structure for easy reference and navigation.
 
@@ -8,9 +8,9 @@ These assignments cover a wide range of topics and serve as evidence of my progr
 
 The following computer science courses from Study.com are included in this repository:
 
-1. Computer Science 204: Database Programming
-2. Computer Science 303: Database Management
-3. Computer Science 201: Data Structures & Algorithms
+1. Computer Science 201: Data Structures & Algorithms
+2. Computer Science 204: Database Programming
+3. Computer Science 303: Database Management
 4. Computer Science 306: Computer Architecture
 5. Computer Science 307: Software Engineering
 
@@ -52,3 +52,4 @@ Remember, the purpose of these assignments is to assist your learning journey. I
 ---
 
 **Note**: Plagiarism or any form of dishonesty in academic settings can have severe consequences. Always adhere to your institution's policies and guidelines regarding academic integrity.
+
